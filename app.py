@@ -8,7 +8,7 @@ from tema import aplicar_tema
 
 
 st.set_page_config(
-    page_title="Atlas de Dados | Lista Híbrida",
+    page_title="Atlas Celestial | Lista Híbrida",
     page_icon="✦",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -24,12 +24,12 @@ lista = st.session_state.lista
 st.markdown(
     """
     <section class="atlas-hero" aria-label="Apresentação do simulador">
-      <span class="atlas-kicker">Observatório de algoritmos / Volume I</span>
-      <h1>Atlas da Lista Híbrida</h1>
+      <span class="atlas-kicker">Observatório de algoritmos / Edição II · Luminous Atlas</span>
+      <h1>Atlas da Lista Híbrida <span aria-hidden="true">✧</span></h1>
       <p>Uma exploração interativa entre a ordem e o acaso. Investigue 1.024 chaves
       organizadas, uma cauda mutável e o rigor das buscas binária e sequencial.</p>
       <div class="atlas-rule"></div>
-      <span class="atlas-mark">✦ &nbsp; BUSCA · INSERÇÃO · REORDENAÇÃO</span>
+      <span class="atlas-mark">✦ &nbsp; SISTEMA CELESTIAL · BUSCA · INSERÇÃO · REORDENAÇÃO</span>
     </section>
     """,
     unsafe_allow_html=True,
