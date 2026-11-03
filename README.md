@@ -36,4 +36,11 @@ Uma iteração corresponde a uma passagem de laço. Na busca binária, igualdade
 
 ## Entrega
 
-**Antes de entregar:** preencher os nomes dos integrantes em `app.py`, publicar no Streamlit Cloud, conferir desktop/celular e demonstrar inserção, duplicatas, buscas e mesclagem. O pipeline de testes não substitui validação visual.
+**Antes de entregar:** publicar no Streamlit Cloud, conferir desktop/celular e demonstrar inserção, duplicatas, buscas e mesclagem.
+
+## Integrantes
+- Ricardo Henrique Rocha Silva
+- Pedro Henrique Martins Mattos Paranhos Barreiros
+- Brunno Otavyo De Jesus Aguiar
+- Murilo Ribeiro
+- Luis Eduardo Barbosa de Menezes Junior O pipeline de testes não substitui validação visual.
