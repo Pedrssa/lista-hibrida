@@ -52,7 +52,8 @@ with st.sidebar:
     st.caption(f"Semente em uso: {lista.semente} · Base inicial: {TAMANHO_INICIAL} chaves.")
     st.divider()
     st.subheader("Integrantes")
-    st.info("Adicionar os nomes reais dos integrantes antes da apresentação.")
+    for integrante in ["Ricardo Henrique Rocha Silva","Pedro Henrique Martins Mattos Paranhos Barreiros","Brunno Otavyo De Jesus Aguiar","Murilo Ribeiro","Luis Eduardo Barbosa de Menezes Junior"]:
+        st.write(f"• {integrante}")
     with st.expander("Instrumentos matemáticos utilizados"):
         st.code(
             "random.Random.sample\n"
