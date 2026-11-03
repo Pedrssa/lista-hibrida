@@ -125,7 +125,7 @@ button[kind="primary"]:hover { background:var(--celestial)!important; }
   position:absolute; width:var(--size); height:var(--size);
   top:var(--top); left:var(--left); opacity:.15;
   border-radius:50%; background:var(--celestial);
-  box-shadow:0 0 0 3px rgba(49,75,105,.10);
+  box-shadow:0 0 0 3px rgba(49,75,105,.14);
   animation:particle-float var(--duration) ease-in-out var(--delay) infinite alternate,
             particle-pulse 4s ease-in-out var(--delay) infinite;
   will-change:transform,opacity;
@@ -168,7 +168,7 @@ button[kind="primary"]:hover { background:var(--celestial)!important; }
 .atlas-footer { color:var(--muted); border-top:1px solid var(--line); margin-top:2.5rem; padding-top:1rem; font:400 .7rem var(--mono); letter-spacing:.06em; }
 @keyframes atlas-rise { from{opacity:0; transform:translateY(21px)} to{opacity:1;transform:translateY(0)} }
 @keyframes particle-float { from{transform:translate3d(0,13px,0)} to{transform:translate3d(24px,-27px,0)} }
-@keyframes particle-pulse { 0%,100%{opacity:.10} 50%{opacity:.54} }
+@keyframes particle-pulse { 0%,100%{opacity:.22} 50%{opacity:.84} }
 @keyframes orbit-breathe { from{transform:rotate(-9deg) scale(.96);opacity:.55} to{transform:rotate(9deg) scale(1.07);opacity:1} }
 @keyframes rule-reveal { from{transform:scaleX(0)} to{transform:scaleX(1)} }
 @keyframes slot-arrive { from{opacity:.4;transform:translateY(10px) scale(.93)} to{opacity:1;transform:translateY(0) scale(1)} }
@@ -196,7 +196,7 @@ def aplicar_tema() -> None:
     for i in range(24):
         left = (i * 37 + 11) % 97
         top = (i * 43 + 17) % 95
-        size = 3 + i % 4
+        size = 4 + i % 4
         duration = 5 + (i % 6)
         delay = -(i % 8)
         particles.append(
